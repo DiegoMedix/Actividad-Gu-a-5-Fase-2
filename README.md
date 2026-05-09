@@ -18,9 +18,13 @@ Aqui podemos analisar que la arquitectura seria tres capas, el frontend no se co
 <img width="724" height="179" alt="image" src="https://github.com/user-attachments/assets/8f2d5168-000d-4ba3-8a87-7decdf7fe50c" />
 
 # Estructura JSON Modelamiento de datos
+El sistema maneja dos entidades principales: Paquete y repartidor, cada paquete almacena los datos del remitente, destinatario, dimensiones fisicas, estado actual del envio y repartidor asignado. El repartidor, por su parte registra su ubicacion geografica en tiempo real y la lista de paquetes que tiene a su cargo.
+Los estados posibles de un paquete son: En bodega, en ruta, entregrado e incidencia.
 <img width="725" height="168" alt="image" src="https://github.com/user-attachments/assets/c637d404-7114-4785-a8ca-262a9dcc3704" />
 
 # Planificacion de tareas para el proeycto en GitHub Projects
+Las tareas de esta primera fase estan organizadas en tres frentes: base de datos, backend y frontend. El objetivo es tener un MVP funcional con registro de paquetes, gestión de estados y rastreo público por número de guía. El mapa de ubicación en tiempo real de la flota queda pendiente para la Fase 2.
+Las tareas se gestionan en GitHub.
 <img width="579" height="487" alt="image" src="https://github.com/user-attachments/assets/70f443f6-ad14-4e62-a87f-aef25563b399" />
 
 
